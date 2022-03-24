@@ -39,6 +39,9 @@ struct ContentView: View {
                 }
             }
             Text("Select an item")
+        }.onAppear {
+            PokemonAPI().getAllPokemons()
+            PokemonAPI().getPokemonDataFromID(pokemonURL: "https://pokeapi.co/api/v2/pokemon/1/")
         }
     }
 
