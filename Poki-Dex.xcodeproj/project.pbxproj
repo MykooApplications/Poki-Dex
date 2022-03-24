@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E1362627ECE1D300684CFD /* Poki_DexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1362527ECE1D300684CFD /* Poki_DexApp.swift */; };
+		02E1362827ECE1D300684CFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1362727ECE1D300684CFD /* ContentView.swift */; };
+		02E1362A27ECE1D500684CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E1362927ECE1D500684CFD /* Assets.xcassets */; };
+		02E1362D27ECE1D500684CFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E1362C27ECE1D500684CFD /* Preview Assets.xcassets */; };
+		02E1362F27ECE1D500684CFD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1362E27ECE1D500684CFD /* Persistence.swift */; };
+		02E1363227ECE1D500684CFD /* Poki_Dex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02E1363027ECE1D500684CFD /* Poki_Dex.xcdatamodeld */; };
+		02E1363C27ECE1D600684CFD /* Poki_DexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1363B27ECE1D600684CFD /* Poki_DexTests.swift */; };
+		02E1364627ECE1D600684CFD /* Poki_DexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1364527ECE1D600684CFD /* Poki_DexUITests.swift */; };
+		02E1364827ECE1D600684CFD /* Poki_DexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1364727ECE1D600684CFD /* Poki_DexUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02E1363827ECE1D600684CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E1361A27ECE1D300684CFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E1362127ECE1D300684CFD;
+			remoteInfo = "Poki-Dex";
+		};
+		02E1364227ECE1D600684CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E1361A27ECE1D300684CFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E1362127ECE1D300684CFD;
+			remoteInfo = "Poki-Dex";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E1362227ECE1D300684CFD /* Poki-Dex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poki-Dex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E1362527ECE1D300684CFD /* Poki_DexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poki_DexApp.swift; sourceTree = "<group>"; };
+		02E1362727ECE1D300684CFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02E1362927ECE1D500684CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02E1362C27ECE1D500684CFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02E1362E27ECE1D500684CFD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		02E1363127ECE1D500684CFD /* Poki_Dex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poki_Dex.xcdatamodel; sourceTree = "<group>"; };
+		02E1363727ECE1D600684CFD /* Poki-DexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poki-DexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E1363B27ECE1D600684CFD /* Poki_DexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poki_DexTests.swift; sourceTree = "<group>"; };
+		02E1364127ECE1D600684CFD /* Poki-DexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poki-DexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E1364527ECE1D600684CFD /* Poki_DexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poki_DexUITests.swift; sourceTree = "<group>"; };
+		02E1364727ECE1D600684CFD /* Poki_DexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poki_DexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E1361F27ECE1D300684CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1363427ECE1D600684CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1363E27ECE1D600684CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E1361927ECE1D300684CFD = {
+			isa = PBXGroup;
+			children = (
+				02E1362427ECE1D300684CFD /* Poki-Dex */,
+				02E1363A27ECE1D600684CFD /* Poki-DexTests */,
+				02E1364427ECE1D600684CFD /* Poki-DexUITests */,
+				02E1362327ECE1D300684CFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02E1362327ECE1D300684CFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E1362227ECE1D300684CFD /* Poki-Dex.app */,
+				02E1363727ECE1D600684CFD /* Poki-DexTests.xctest */,
+				02E1364127ECE1D600684CFD /* Poki-DexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E1362427ECE1D300684CFD /* Poki-Dex */ = {
+			isa = PBXGroup;
+			children = (
+				02E1362527ECE1D300684CFD /* Poki_DexApp.swift */,
+				02E1362727ECE1D300684CFD /* ContentView.swift */,
+				02E1362927ECE1D500684CFD /* Assets.xcassets */,
+				02E1362E27ECE1D500684CFD /* Persistence.swift */,
+				02E1363027ECE1D500684CFD /* Poki_Dex.xcdatamodeld */,
+				02E1362B27ECE1D500684CFD /* Preview Content */,
+			);
+			path = "Poki-Dex";
+			sourceTree = "<group>";
+		};
+		02E1362B27ECE1D500684CFD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02E1362C27ECE1D500684CFD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02E1363A27ECE1D600684CFD /* Poki-DexTests */ = {
+			isa = PBXGroup;
+			children = (
+				02E1363B27ECE1D600684CFD /* Poki_DexTests.swift */,
+			);
+			path = "Poki-DexTests";
+			sourceTree = "<group>";
+		};
+		02E1364427ECE1D600684CFD /* Poki-DexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02E1364527ECE1D600684CFD /* Poki_DexUITests.swift */,
+				02E1364727ECE1D600684CFD /* Poki_DexUITestsLaunchTests.swift */,
+			);
+			path = "Poki-DexUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E1362127ECE1D300684CFD /* Poki-Dex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E1364B27ECE1D600684CFD /* Build configuration list for PBXNativeTarget "Poki-Dex" */;
+			buildPhases = (
+				02E1361E27ECE1D300684CFD /* Sources */,
+				02E1361F27ECE1D300684CFD /* Frameworks */,
+				02E1362027ECE1D300684CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poki-Dex";
+			productName = "Poki-Dex";
+			productReference = 02E1362227ECE1D300684CFD /* Poki-Dex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02E1363627ECE1D600684CFD /* Poki-DexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E1364E27ECE1D600684CFD /* Build configuration list for PBXNativeTarget "Poki-DexTests" */;
+			buildPhases = (
+				02E1363327ECE1D600684CFD /* Sources */,
+				02E1363427ECE1D600684CFD /* Frameworks */,
+				02E1363527ECE1D600684CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E1363927ECE1D600684CFD /* PBXTargetDependency */,
+			);
+			name = "Poki-DexTests";
+			productName = "Poki-DexTests";
+			productReference = 02E1363727ECE1D600684CFD /* Poki-DexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02E1364027ECE1D600684CFD /* Poki-DexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E1365127ECE1D600684CFD /* Build configuration list for PBXNativeTarget "Poki-DexUITests" */;
+			buildPhases = (
+				02E1363D27ECE1D600684CFD /* Sources */,
+				02E1363E27ECE1D600684CFD /* Frameworks */,
+				02E1363F27ECE1D600684CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E1364327ECE1D600684CFD /* PBXTargetDependency */,
+			);
+			name = "Poki-DexUITests";
+			productName = "Poki-DexUITests";
+			productReference = 02E1364127ECE1D600684CFD /* Poki-DexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E1361A27ECE1D300684CFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					02E1362127ECE1D300684CFD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					02E1363627ECE1D600684CFD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 02E1362127ECE1D300684CFD;
+					};
+					02E1364027ECE1D600684CFD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 02E1362127ECE1D300684CFD;
+					};
+				};
+			};
+			buildConfigurationList = 02E1361D27ECE1D300684CFD /* Build configuration list for PBXProject "Poki-Dex" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02E1361927ECE1D300684CFD;
+			productRefGroup = 02E1362327ECE1D300684CFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E1362127ECE1D300684CFD /* Poki-Dex */,
+				02E1363627ECE1D600684CFD /* Poki-DexTests */,
+				02E1364027ECE1D600684CFD /* Poki-DexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E1362027ECE1D300684CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1362D27ECE1D500684CFD /* Preview Assets.xcassets in Resources */,
+				02E1362A27ECE1D500684CFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1363527ECE1D600684CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1363F27ECE1D600684CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E1361E27ECE1D300684CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1363227ECE1D500684CFD /* Poki_Dex.xcdatamodeld in Sources */,
+				02E1362F27ECE1D500684CFD /* Persistence.swift in Sources */,
+				02E1362827ECE1D300684CFD /* ContentView.swift in Sources */,
+				02E1362627ECE1D300684CFD /* Poki_DexApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1363327ECE1D600684CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1363C27ECE1D600684CFD /* Poki_DexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1363D27ECE1D600684CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1364827ECE1D600684CFD /* Poki_DexUITestsLaunchTests.swift in Sources */,
+				02E1364627ECE1D600684CFD /* Poki_DexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02E1363927ECE1D600684CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E1362127ECE1D300684CFD /* Poki-Dex */;
+			targetProxy = 02E1363827ECE1D600684CFD /* PBXContainerItemProxy */;
+		};
+		02E1364327ECE1D600684CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E1362127ECE1D300684CFD /* Poki-Dex */;
+			targetProxy = 02E1364227ECE1D600684CFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E1364927ECE1D600684CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02E1364A27ECE1D600684CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02E1364C27ECE1D600684CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poki-Dex/Preview Content\"";
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Poki-Dex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02E1364D27ECE1D600684CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poki-Dex/Preview Content\"";
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Poki-Dex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02E1364F27ECE1D600684CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Poki-DexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poki-Dex.app/Poki-Dex";
+			};
+			name = Debug;
+		};
+		02E1365027ECE1D600684CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Poki-DexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poki-Dex.app/Poki-Dex";
+			};
+			name = Release;
+		};
+		02E1365227ECE1D600684CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Poki-DexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poki-Dex";
+			};
+			name = Debug;
+		};
+		02E1365327ECE1D600684CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Poki-DexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poki-Dex";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E1361D27ECE1D300684CFD /* Build configuration list for PBXProject "Poki-Dex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E1364927ECE1D600684CFD /* Debug */,
+				02E1364A27ECE1D600684CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E1364B27ECE1D600684CFD /* Build configuration list for PBXNativeTarget "Poki-Dex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E1364C27ECE1D600684CFD /* Debug */,
+				02E1364D27ECE1D600684CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E1364E27ECE1D600684CFD /* Build configuration list for PBXNativeTarget "Poki-DexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E1364F27ECE1D600684CFD /* Debug */,
+				02E1365027ECE1D600684CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E1365127ECE1D600684CFD /* Build configuration list for PBXNativeTarget "Poki-DexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E1365227ECE1D600684CFD /* Debug */,
+				02E1365327ECE1D600684CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02E1363027ECE1D500684CFD /* Poki_Dex.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02E1363127ECE1D500684CFD /* Poki_Dex.xcdatamodel */,
+			);
+			currentVersion = 02E1363127ECE1D500684CFD /* Poki_Dex.xcdatamodel */;
+			path = Poki_Dex.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02E1361A27ECE1D300684CFD /* Project object */;
+}
