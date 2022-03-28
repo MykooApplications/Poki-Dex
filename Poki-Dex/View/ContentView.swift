@@ -15,6 +15,7 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
+    private var pokemons: FetchedResults<Pokemon>
 
     var body: some View {
         NavigationView {
@@ -37,12 +38,20 @@ struct ContentView: View {
                         Label("Add Item", systemImage: "plus")
                     }
                 }
+                ToolbarItem {
+                    Button(action: deleteAll) {
+                        Label("Delete all", systemImage: "")
+                    }
+                }
             }
             Text("Select an item")
         }.onAppear {
             PokemonAPI().getAllPokemons()
-            PokemonAPI().getPokemonDataFromID(pokemonURL: "https://pokeapi.co/api/v2/pokemon/1/")
+           // PokemonAPI().getPokemonDataFromID(pokemonURL: "https://pokeapi.co/api/v2/pokemon/1/")
         }
+    }
+    private func deleteAll() {
+
     }
 
     private func addItem() {

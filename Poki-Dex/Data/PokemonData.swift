@@ -19,7 +19,7 @@ struct PokemonResult: Codable {
     var url: String
 }
 
-struct Pokemon: Codable {
+struct Pokemons: Codable {
     var baseExperience: Int
     var height: Int
     var id: Int

@@ -35,23 +35,23 @@ class PokemonAPI {
     }
     
     
-    func getPokemonDataFromID(pokemonURL pUrl: String) {
-        guard let url = URL(string: pUrl) else { return }
-        let task = URLSession.shared.dataTask(with: url) { data, _, error in
-            guard let data = data, error == nil else {
-                print("API FAILED")
-                return
-            }
-            do {
-                let pokemonData = try JSONDecoder().decode(Pokemon.self, from: data)
-                print("got the pokemon data = \(pokemonData)")
-            }
-            catch {
-                print(error)
-            }
-        }
-        task.resume()
-    }
+//    func getPokemonDataFromID(pokemonURL pUrl: String) {
+//        guard let url = URL(string: pUrl) else { return }
+//        let task = URLSession.shared.dataTask(with: url) { data, _, error in
+//            guard let data = data, error == nil else {
+//                print("API FAILED")
+//                return
+//            }
+//            do {
+//                let pokemonData = try JSONDecoder().decode(Pokemon.self, from: data)
+//                print("got the pokemon data = \(pokemonData)")
+//            }
+//            catch {
+//                print(error)
+//            }
+//        }
+//        task.resume()
+//    }
 
 }
 
